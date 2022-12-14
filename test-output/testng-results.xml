@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Reading devurl from property file.]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for 2000 ms.]]>
+    </line>
+    <line>
+      <![CDATA[Launching browser.]]>
+    </line>
+    <line>
+      <![CDATA[Reading mobNum from property file.]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for 1000 ms.]]>
+    </line>
+    <line>
+      <![CDATA[Sending mobile number.]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for 1000 ms.]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on signIn button.]]>
+    </line>
+    <line>
+      <![CDATA[Reading password from property file.]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for 1000 ms.]]>
+    </line>
+    <line>
+      <![CDATA[Sending password.]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on submit button.]]>
+    </line>
+    <line>
+      <![CDATA[Scrolling to element.]]>
+    </line>
+    <line>
+      <![CDATA[Handing popups.]]>
+    </line>
+    <line>
+      <![CDATA[Getting actual username.]]>
+    </line>
+    <line>
+      <![CDATA[Reading expUserName from property file.]]>
+    </line>
+    <line>
+      <![CDATA[TC validateUserName passed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for 1000 ms.]]>
+    </line>
+    <line>
+      <![CDATA[Logging out from application.]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-12-09T19:23:09 IST" name="Default suite" finished-at="2022-12-09T19:23:33 IST" duration-ms="24545">
+    <groups>
+    </groups>
+    <test started-at="2022-12-09T19:23:09 IST" name="Default test" finished-at="2022-12-09T19:23:33 IST" duration-ms="24545">
+      <class name="neoStoxTestClasses.ValidateNeoStoxUserName">
+        <test-method is-config="true" signature="launchNeoStox()[pri:0, instance:neoStoxTestClasses.ValidateNeoStoxUserName@729d991e]" started-at="2022-12-09T19:23:09 IST" name="launchNeoStox" finished-at="2022-12-09T19:23:18 IST" duration-ms="8942" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Reading devurl from property file.]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for 2000 ms.]]>
+            </line>
+            <line>
+              <![CDATA[Launching browser.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchNeoStox -->
+        <test-method is-config="true" signature="signInToNeoStox()[pri:0, instance:neoStoxTestClasses.ValidateNeoStoxUserName@729d991e]" started-at="2022-12-09T19:23:18 IST" name="signInToNeoStox" finished-at="2022-12-09T19:23:32 IST" duration-ms="14644" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Reading mobNum from property file.]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for 1000 ms.]]>
+            </line>
+            <line>
+              <![CDATA[Sending mobile number.]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for 1000 ms.]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on signIn button.]]>
+            </line>
+            <line>
+              <![CDATA[Reading password from property file.]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for 1000 ms.]]>
+            </line>
+            <line>
+              <![CDATA[Sending password.]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on submit button.]]>
+            </line>
+            <line>
+              <![CDATA[Scrolling to element.]]>
+            </line>
+            <line>
+              <![CDATA[Handing popups.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- signInToNeoStox -->
+        <test-method signature="validateUserName()[pri:0, instance:neoStoxTestClasses.ValidateNeoStoxUserName@729d991e]" started-at="2022-12-09T19:23:32 IST" name="validateUserName" finished-at="2022-12-09T19:23:33 IST" duration-ms="277" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Getting actual username.]]>
+            </line>
+            <line>
+              <![CDATA[Reading expUserName from property file.]]>
+            </line>
+            <line>
+              <![CDATA[TC validateUserName passed successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateUserName -->
+        <test-method is-config="true" signature="logoutFromNeoStox()[pri:0, instance:neoStoxTestClasses.ValidateNeoStoxUserName@729d991e]" started-at="2022-12-09T19:23:33 IST" name="logoutFromNeoStox" finished-at="2022-12-09T19:23:33 IST" duration-ms="304" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Waiting for 1000 ms.]]>
+            </line>
+            <line>
+              <![CDATA[Logging out from application.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutFromNeoStox -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:neoStoxTestClasses.ValidateNeoStoxUserName@729d991e]" started-at="2022-12-09T19:23:33 IST" name="closeBrowser" finished-at="2022-12-09T19:23:33 IST" duration-ms="288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- neoStoxTestClasses.ValidateNeoStoxUserName -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
