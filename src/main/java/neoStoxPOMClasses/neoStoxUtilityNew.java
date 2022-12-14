@@ -46,7 +46,7 @@ public class neoStoxUtilityNew
 		Reporter.log("Waiting for "+waitTime+" ms.", true);
 	}
 	
-	public static void scrollIntoView(WebDriver driver, WebElement element)
+	public static void scrollIntoView(WebDriver driver, WebElement element, int a)
 	{
 		JavascriptExecutor js=(JavascriptExecutor)driver;
 		js.executeScript("arguments[0].scrollIntoView()", element);
