@@ -17,15 +17,10 @@ public class neoStoxBaseNew
 	public void launchBrowser() throws IOException
 	{
 		System.setProperty("webdriver.chrome.driver", "H:\\\\SOFTWARE TESTING\\\\chromedriver.exe");
-		
 		driver=new ChromeDriver();
-		
 		driver.get(neoStoxUtilityNew.readPropertyFile("devurl"));
-		
 		driver.manage().window().maximize();
-		
 		neoStoxUtilityNew.wait(driver, 2000);
-		
 		Reporter.log("Launching browser.", true);
 	}
 }
