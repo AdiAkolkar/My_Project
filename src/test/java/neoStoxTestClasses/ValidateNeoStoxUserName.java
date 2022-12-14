@@ -42,6 +42,10 @@ public class ValidateNeoStoxUserName extends neoStoxBaseNew
 		password.enterPassword(driver, neoStoxUtilityNew.readPropertyFile("password"));
 		password.clickOnSubmitButton(driver);
 		Thread.sleep(1000);
+		Thread.sleep(1000);
+		Thread.sleep(1000);
+		Thread.sleep(1000);
+		Thread.sleep(1000);
 		home.handlePopUp(driver);
 	}
 
